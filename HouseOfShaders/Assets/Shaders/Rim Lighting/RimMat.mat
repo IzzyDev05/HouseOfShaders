@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8835691551518411651
+--- !u!114 &-8534510729056647576
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DissolveMat
-  m_Shader: {fileID: -6465566751694194690, guid: 0e9a1d5532c850d4f8ad61497ac4ef05, type: 3}
+  m_Name: RimMat
+  m_Shader: {fileID: -6465566751694194690, guid: 89bc94fee5b63ad479abb297c3cc4a32, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -50,14 +50,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AngleOffset: 80
-    - _CellDensity: 25
-    - _Cutoff_Height: 0.15
-    - _Glow_Thickness: 0.1
-    - _Noise_Strength: 0.2
+    - _EdgePower: 7.5
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _ShadowPower: 1
+    - _Strength: 1.5
     m_Colors:
-    - _Base_Color: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 0}
-    - _Glow_Color: {r: 0, g: 1.0566038, b: 0.08438362, a: 1}
+    - _Color: {r: 0.9710655, g: 0, b: 2, a: 1}
   m_BuildTextureStacks: []
