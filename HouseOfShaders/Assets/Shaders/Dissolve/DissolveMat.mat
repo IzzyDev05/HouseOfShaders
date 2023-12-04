@@ -52,7 +52,7 @@ Material:
     m_Floats:
     - _AngleOffset: 80
     - _CellDensity: 25
-    - _Cutoff_Height: 0.15
+    - _Cutoff_Height: 0.21
     - _Glow_Thickness: 0.1
     - _Noise_Strength: 0.2
     - _QueueControl: 0
